@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cabasicanift</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>CABasicAnimation* &lt;#name#&gt; = [CABasicAnimation animationWithKeyPath:@"&lt;#keyPath#&gt;"];
+&lt;#name#&gt;.duration = &lt;#seconds#&gt;;
+&lt;#name#&gt;.fromValue = &lt;#fromValue#&gt;;
+&lt;#name#&gt;.toValue = &lt;#toValue#&gt;;
+&lt;#name#&gt;.timingFunction = [CAMediaTimingFunction functionWithName:&lt;#functionName#&gt;];
+[&lt;#layer#&gt; addAnimation:&lt;#name#&gt; forKey:&lt;#key#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>67337280-DD29-4C6F-9FD5-5EE48014ED18</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>同时需要设置fromValue和toValue的basicAnimation - cabasicanift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Basic Animation Set From Value&amp;To Value</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

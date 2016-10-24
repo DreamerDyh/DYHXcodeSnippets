@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pcopy</string>
+	<string>cabasicanit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#Class#&gt;* &lt;#obj#&gt;;</string>
+	<string>CABasicAnimation* &lt;#name#&gt; = [CABasicAnimation animationWithKeyPath:@"&lt;#keyPath#&gt;"];
+&lt;#name#&gt;.duration = &lt;#seconds#&gt;;
+&lt;#name#&gt;.toValue = &lt;#toValue#&gt;;
+&lt;#name#&gt;.timingFunction = [CAMediaTimingFunction functionWithName:&lt;#functionName#&gt;];
+[&lt;#layer#&gt; addAnimation:&lt;#name#&gt; forKey:&lt;#key#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ED1F7B34-BB03-456D-A0D6-A1D0FF4919D0</string>
+	<string>24F4F1EF-AB29-42CC-B5CA-F941862C07E6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>声明一个copy变量 - pcopy</string>
+	<string>仅需要设置toValue的basicAnimation - cabasicanit</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Copy</string>
+	<string>Basic Animation Set To Value</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
