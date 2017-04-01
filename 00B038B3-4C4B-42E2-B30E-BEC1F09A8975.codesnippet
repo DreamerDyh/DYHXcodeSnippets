@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pmark</string>
+	<string>omvoid</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Description#&gt;</string>
+	<string>- (void)&lt;#methodName#&gt;
+{
+    &lt;#methodContent#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BF0461D2-F94B-4237-870A-23C91117E68E</string>
+	<string>00B038B3-4C4B-42E2-B30E-BEC1F09A8975</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>声明一段pragma mark - pmark</string>
+	<string>创建一个返回void的对象方法 - omvoid</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Pragma Mark</string>
+	<string>Object Method Return Void</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pmark</string>
+	<string>wself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Description#&gt;</string>
+	<string>__weak typeof(self) weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BF0461D2-F94B-4237-870A-23C91117E68E</string>
+	<string>EEDA6D81-12FE-4B36-BB2C-21757D57EE11</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>声明一段pragma mark - pmark</string>
+	<string>快速写出weakSelf - wself</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Pragma Mark</string>
+	<string>weakSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
