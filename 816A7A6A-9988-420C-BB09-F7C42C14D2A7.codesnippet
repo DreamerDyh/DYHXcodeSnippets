@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pcopy</string>
+	<string>pdelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) Class *&lt;#obj#&gt;;</string>
+	<string>@property (nonatomic, weak) id&lt;&lt;#protocol#&gt;&gt; delegate;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ED1F7B34-BB03-456D-A0D6-A1D0FF4919D0</string>
+	<string>816A7A6A-9988-420C-BB09-F7C42C14D2A7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>声明一个copy变量 - pcopy</string>
+	<string>声明一个代理property - pdelegate </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Copy</string>
+	<string>Property Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
